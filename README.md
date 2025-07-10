@@ -7,44 +7,6 @@ This project showcases a complete **Retail Analytics Pipeline** using:
 - ❄️ **Snowflake** as the cloud data warehouse
 - 📊 **Power BI** for interactive business dashboards
 
----
-
-## 📁 Project Structure
-
-retail-dashboard-snowflake/
-│
-├── data/
-│ ├── raw/ # Original CSV files
-│ │ └── sample-super-store.csv
-│ ├── processed/ # Cleaned + merged data
-│ └── final_cleaned_data.csv
-│
-├── notebooks/
-│ └── eda.ipynb # EDA in Pandas + SQL
-│
-├── snowflake_sql/
-│ ├── create_tables.sql # CREATE TABLE scripts
-│ ├── insert_data.sql # Data loading scripts (COPY INTO or INSERT INTO)
-│ └── queries.sql # Common SQL queries for analytics
-│
-├── scripts/
-│ ├── db_connect.py # Snowflake DB connection logic
-│ ├── load_to_snowflake.py # Load processed data to Snowflake tables
-│ └── clean_data.py # Data cleaning + transformation pipeline
-│
-├── dashboard/
-│ └── powerbi.pbix # Power BI dashboard file
-│
-├── .env # (Optional) Store Snowflake credentials securely
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
-yaml
-Copy
-Edit
-
----
-
 ## ✅ Project Pipeline Overview
 
 ### 1. 📂 Data Ingestion
