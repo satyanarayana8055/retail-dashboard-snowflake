@@ -1,7 +1,8 @@
 # Core packages
 pandas>=1.5.0
 numpy>=1.23.0
-
+plotly
+scipy
 # Snowflake connector
 snowflake-connector-python>=3.0.0
 python-dotenv>=1.0.0

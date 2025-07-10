@@ -7,7 +7,7 @@ def clean_superstore_data():
     output_path = "data/processed/superstore_cleaned.csv"
 
     # Load the data
-    df = pd.read_csv(input_path)
+    df = pd.read_csv(input_path, encoding='ISO-8859-1')
 
     # Strip whitespace from column names
     df.columns = df.columns.str.strip()

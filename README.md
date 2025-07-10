@@ -5,10 +5,7 @@ retail-dashboard-snowflake/
 │
 ├── data/
 │   ├── raw/                      # Original CSV files (before cleaning)
-│   │   ├── sales.csv
-│   │   ├── stores.csv
-│   │   ├── products.csv
-│   │   └── calendar.csv
+│   │   └── sample-super-store.csv
 │   ├── processed/               # Merged and cleaned data
 │   │   └── final_cleaned_data.csv
 │   └── exports/                 # Optional: CSVs exported from DB or for Power BI
